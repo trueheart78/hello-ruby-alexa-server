@@ -43,30 +43,13 @@ ngrok http 4567
 
 ## Alexa Skill Intent
 
-When working with this application, the following are recommended itents for the
-Alexa skill:
+When working with this application, the following are recommended starting intents
+for the Alexa skill:
 
-```json
-{
-  "intents": [
-    {
-      "intent": "TestApp"
-    },
-    {
-      "intent": "AMAZON.YesIntent"
-    },
-    {
-      "intent": "AMAZON.NoIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
-    }
-  ]
-}
-```
+* `AMAZON.YesIntent`
+* `AMAZON.HelpIntent`
+* `AMAZON.CancelIntent`
+* `AMAZON.StopIntent`
 
 [alexa_rubykit]: https://github.com/damianFC/alexa-rubykit
 [taskrabbit]: http://tech.taskrabbit.com/blog/2016/12/02/amazon-alexa-rails/
